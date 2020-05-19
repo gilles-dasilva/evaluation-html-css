@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    outline: 0; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-size: cover;
+    line-height: 1.5;
+    color: black;
+    margin: 0;  
+    justify-content: flex-end;  
+
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+}
+
+
+h1{
+    color: black;
+    font-size: 1.5rem;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    background-color:white;
+    height: 200px;
+    border-bottom: solid 15px;
+    
+    
+    
+}
+
+.logo{
+    position: absolute;
+    top:50PX;
+
+    
+       
+}
+.lorem{
+    position: absolute;
+    top: 120px;
+}
+
+.julien{
+    position: absolute;
+    right: 350px;
+    top: 70px;
+}
+
+
+.compte{
+    color: black;
+    position: absolute;
+    right: 350px;
+    top: 20px;
+    border: black solid 2px;
+
+}
+.compte a{
+    color: black;
+    margin: 30px;
+    padding: 20px;
+}
+
+.deco{
+    position: absolute;
+    right:  400px;
+    top: 155px;
+}
+
+.deco a{
+    color: black;
+    margin: 30px;
+}
+
+
+
+header span{
+    color: orange;
+}
+
+
+
+
+
+
+/*Main*/
+
+main{
+    background-color: black;
+    width: 100%;
+}
+
+
+
+.container .gant-boxe{
+    background-color: white;
+}
+
+article{
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+    margin-right: 60px;
+    padding-top: 40px;
+    padding-left: 50px;
+    hyphens: auto;
+    align-items: center;  
+}
+
+article img{
+    border: grey solid;
+}
+
+article h2{
+    color: orange;
+    background-color: grey;
+    display: flex;
+
+}
+
+
+article h3{
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+
+}
+
+article a{
+    background-color:black;  
+    color: #fff;
+    padding: 10px 55px;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+
+article p{
+    font-size: 1.7rem;
+    position: relative;
+    left:230px;
+    bottom: 50px;
+}
+
+article span{
+    color: orange;
+    
+}
+article small{
+    text-decoration: line-through;
+}
+
+
+
+
+
+/*Footer*/
+footer{
+    background-color: grey;
+    text-align: center;   
+
+}
+
+footer .footer-nav{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    margin: 0 160px;
+    
+}
+
+footer a{
+    color: black;
+    margin: 0 10px;
+}
+
+footer .row{
+    padding-top: 50px;
+}
+
+footer .reseaux{
+    width: 50%;
+
+}
+    
+
+
